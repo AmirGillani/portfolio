@@ -4,7 +4,7 @@ import { TESTIMONIALS } from "../assets/constants/index";
 
 export default function Testimonials() {
   return (
-    <div className="container mx-auto py-16 mt-20 tracking-tighter">
+    <div className="container mx-auto py-16 mt-20 tracking-tighter" id="testimonials">
       <h2 className="font-semibold text-4xl text-center mb-12">
         What People Say
       </h2>

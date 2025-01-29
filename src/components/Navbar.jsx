@@ -2,17 +2,21 @@ import React, { useState } from "react";
 
 import logo from "../assets/assets/logo.png";
 
-import Toggle1 from "../assets/assets/toggle-icon.svg";
+import { RxHamburgerMenu } from "react-icons/rx";
 
-import Toggle2 from "../assets/assets/toggle-icon-2.svg";
+import { RxCross1 } from "react-icons/rx";
 
 import { NAVIGATION_LINKS } from "../assets/constants/index";
 
 export default function Navbar() {
+
   const [mobileMenu, setMobileMenu] = useState(false);
+
+  const [toggle, setToggle] = useState(true);
 
   function toggler() {
     setMobileMenu(!mobileMenu);
+    setToggle(!toggle)
   }
 
   function handleClick(e, href) {
@@ -91,16 +95,19 @@ export default function Navbar() {
 
           <div className="flex items-center">
             <button className="focus:outline-none lg:hidden" onClick={toggler}>
-              <img src={Toggle1} className="m-2 h-6 w-5" />
+            
+            {/* TOGGLE ICON */}
+             {toggle ? <RxHamburgerMenu size={30}/> : <RxCross1 size={30}/>} 
             </button>
           </div>
         </div>
 
         {mobileMenu && (
           <ul className="flex flex-col m-2">
-            {NAVIGATION_LINKS.map((link) => (
-              <li>
+            {NAVIGATION_LINKS.map((link,index) => (
+              <li key={index}>
                 <a
+                
                   href={link.href}
                   className="w-full text-xl block font-semibold"
                   onClick={(e) => {
