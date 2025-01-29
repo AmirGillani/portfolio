@@ -10,7 +10,7 @@ export default function Awards() {
       <h2 className="mb-12 mt-20 text-center text-4xl font-semibold">Awards</h2>
       <div className="mx-auto flex flex-row flex-wrap max-w-6xl">
         <div className="w-full p-2 sm:w-1/2">
-          <video autoPlay muted playsInline>
+          <video autoPlay muted playsInline controls preload="none" onContextMenu={(e) => e.preventDefault()}>
             <source src={awardsVideo} type="video/mp4" />
           </video>
         </div>
