@@ -46,7 +46,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Amir Shah",
-  info: "React Js developer with knowlege of MERN stack",
+  info: "Building seamless web experiences with the power of MERN Stack.",
 };
 
 export const ABOUT = {

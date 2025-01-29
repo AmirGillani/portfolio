@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../assets/assets/logo.png";
+import logo from "../assets/assets/logo.jpeg";
 
 import {SOCIAL_MEDIA_LINKS} from "../assets/constants/index";
 
@@ -9,7 +9,7 @@ export default function Footer() {
     <div className="mb-8 mt-20">
       <div className="flex items-center justify-center">
         <figure>
-          <img src={logo} alt="logo" width={200} className="mb-2" />
+          <img src={logo} alt="logo"  className="mb-2 w-72" />
           <div className="mb-10 h-3 w-12 bg-yellow-400"></div>
         </figure>
       </div>
