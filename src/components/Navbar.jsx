@@ -56,7 +56,7 @@ export default function Navbar() {
 
       <div className="mx-auto gap-4 hidden max-w-2xl items-center justify-center rounded-lg bg-black/20 p-3 backdrop-blur-lg lg:flex">
         <a href="#">
-          <img src={logo} className="md:w-24 w-10" alt="logo" />
+          <img src={logo} className="md:w-20 w-10" alt="logo" />
         </a>
         <ul className="flex items-center gap-4">
           {NAVIGATION_LINKS.map((link, index) => {
