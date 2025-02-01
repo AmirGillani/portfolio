@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Projects />
       <Skills />
       <Awards />
       <Testimonials />
+      <Projects />
       <ContactForm />
       <Footer />
       <ToastContainer />

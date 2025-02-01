@@ -37,10 +37,10 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
-  { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Award", href: "#award" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
 
