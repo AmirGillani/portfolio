@@ -14,14 +14,16 @@ import {
 // import { FaNodeJs } from "react-icons/fa";
 // import { BiLogoPostgresql } from "react-icons/bi";
 
-import image1 from "../assets/project1.jpeg";
-import image2 from "../assets/project2.jpeg";
-import image3 from "../assets/project3.jpeg";
-import image4 from "../assets/project4.jpeg";
-import image5 from "../assets/project5.jpeg";
-import image6 from "../assets/project6.jpeg";
-import image7 from "../assets/project7.jpeg";
-import image8 from "../assets/project8.jpeg";
+import image1 from "../assets/project1.png";
+import image2 from "../assets/project2.png";
+import image3 from "../assets/project3.png";
+import image4 from "../assets/project4.png";
+import image5 from "../assets/project5.png";
+import image6 from "../assets/project6.png";
+import image7 from "../assets/project7.png";
+import image8 from "../assets/project8.png";
+import image9 from "../assets/project9.png";
+
 
 import reactIcon from "../assets/react-js-icon.svg"
 import nextJsIcon from "../assets/nextjs-icon.svg"
@@ -58,50 +60,57 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "E-commerce Platform",
+    title: "POTTER HEADS",
     subtitle:
-      "A full-stack e-commerce platform built with React, Node.js, and MongoDB.",
+      "A pure HTML,Tailwind and vanilla JS project.",
     image: image1
   },
   {
-    title: "Social Media App",
+    title: "Amazon Clone",
     subtitle:
-      "A social media application developed using Next.js and Firebase.",
+      "Pure HTML and CSS project.",
     image: image2,
   },
   {
-    title: "Project Management Tool",
-    subtitle: "A project management tool built with Django and PostgreSQL.",
+    title: "Mobilemate",
+    subtitle: "A LIVE full MERN stack project.",
     image: image3,
   },
   {
-    title: "Personal Portfolio",
+    title: "Facebook Clone",
     subtitle:
-      "A personal portfolio website designed with HTML, CSS, and JavaScript.",
+      "A pure HTML and CSS project.",
     image: image4,
   },
   {
-    title: "Weather Dashboard",
+    title: "ATO Books",
     subtitle:
-      "A weather dashboard application built with Vue.js and Express.js.",
+      "A pure HTML and CSS project.",
     image: image5,
   },
   {
-    title: "Blog Platform",
+    title: "Messenger Clone",
     subtitle:
-      "A blogging platform developed with Ruby on Rails and PostgreSQL.",
+      "A React JS project for fake chats.",
     image: image6,
   },
   {
-    title: "Fitness Tracker",
-    subtitle: "A fitness tracking app created using Flutter and Firebase.",
+    title: "Admin Pannel For Mobilemate",
+    subtitle: "A full stack project to manage mobilamate ",
     image: image7,
   },
   {
-    title: "Recipe Finder",
-    subtitle: "A recipe finder application developed with Angular and Node.js.",
+    title: "Places App",
+    subtitle: "A MERN stack project",
     image: image8,
   },
+  {
+    title: "Ecommerce App",
+    subtitle: "A MERN stack project",
+    image: image9,
+  },
+
+
 ];
 
 export const SKILLS = [

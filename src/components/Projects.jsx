@@ -20,7 +20,7 @@ export default function Projects() {
   };
 
   const itemVarient = {
-    hidden: { opacity: 1, x: -100,  },
+    hidden: { opacity: 0, x: -100,  },
     visible: {
       opacity: 1,
       x:0,
