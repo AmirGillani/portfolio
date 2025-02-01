@@ -56,6 +56,7 @@ export default function Projects() {
                 title={item.title}
                 subtitles={item.subtitle}
                 img={item.image}
+                link={item.link}
               />
             </motion.div>
           );

@@ -34,7 +34,12 @@ export default function Hero() {
         transition={{ duration: 3, delay: 1 }}
       >
         <ReactTyped
-          strings={["AMIR SHAH", "MERN STACK DEV", "WEB DEVELOPER","AMIR GILLANI"]}
+          strings={[
+            "AMIR SHAH",
+            "MERN STACK DEV",
+            "WEB DEVELOPER",
+            "AMIR GILLANI",
+          ]}
           typeSpeed={40}
           backSpeed={50}
           attr="placeholder"

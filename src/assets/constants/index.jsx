@@ -7,13 +7,6 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-// import { RiReactjsLine } from "react-icons/ri";
-// import { TbBrandNextjs } from "react-icons/tb";
-// import { SiMongodb } from "react-icons/si";
-// import { DiRedis } from "react-icons/di";
-// import { FaNodeJs } from "react-icons/fa";
-// import { BiLogoPostgresql } from "react-icons/bi";
-
 import image1 from "../assets/project1.png";
 import image2 from "../assets/project2.png";
 import image3 from "../assets/project3.png";
@@ -23,14 +16,14 @@ import image6 from "../assets/project6.png";
 import image7 from "../assets/project7.png";
 import image8 from "../assets/project8.png";
 import image9 from "../assets/project9.png";
+import image10 from "../assets/project10.png";
 
-
-import reactIcon from "../assets/react-js-icon.svg"
-import nextJsIcon from "../assets/nextjs-icon.svg"
-import nodeJsIcon from "../assets/node-js-icon.svg"
-import expressJsIcon from "../assets/express-js-icon.svg"
-import reduxJsIcon from "../assets/redux-icon.svg"
-import mongoDbIcon from "../assets/mongodb-icon.svg"
+import reactIcon from "../assets/react-js-icon.svg";
+import nextJsIcon from "../assets/nextjs-icon.svg";
+import nodeJsIcon from "../assets/node-js-icon.svg";
+import expressJsIcon from "../assets/express-js-icon.svg";
+import reduxJsIcon from "../assets/redux-icon.svg";
+import mongoDbIcon from "../assets/mongodb-icon.svg";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -61,86 +54,96 @@ export const ABOUT = {
 export const PROJECTS = [
   {
     title: "POTTER HEADS",
-    subtitle:
-      "A pure HTML,Tailwind and vanilla JS project.",
-    image: image1
-  },
-  {
-    title: "Amazon Clone",
-    subtitle:
-      "Pure HTML and CSS project.",
-    image: image2,
+    subtitle: "A pure HTML,Tailwind and vanilla JS project.",
+    image: image1,
+    link: "https://harrypotter-6zbk.vercel.app/",
   },
   {
     title: "Mobilemate",
     subtitle: "A LIVE full MERN stack project.",
     image: image3,
-  },
-  {
-    title: "Facebook Clone",
-    subtitle:
-      "A pure HTML and CSS project.",
-    image: image4,
-  },
-  {
-    title: "ATO Books",
-    subtitle:
-      "A pure HTML and CSS project.",
-    image: image5,
-  },
-  {
-    title: "Messenger Clone",
-    subtitle:
-      "A React JS project for fake chats.",
-    image: image6,
+    link: "https://www.mobilemate.io/",
   },
   {
     title: "Admin Pannel For Mobilemate",
     subtitle: "A full stack project to manage mobilamate ",
     image: image7,
-  },
-  {
-    title: "Places App",
-    subtitle: "A MERN stack project",
-    image: image8,
+    link: "https://www.mobilemate.io/",
   },
   {
     title: "Ecommerce App",
     subtitle: "A MERN stack project",
     image: image9,
+    link: "https://ecommerce-frontend-pi-one.vercel.app/",
+  },
+  {
+    title: "Places App",
+    subtitle: "A MERN stack project",
+    image: image8,
+    link: "https://places-app-orcin.vercel.app/",
+  },
+  {
+    title: "Fake Messenger Chats",
+    subtitle: "A React JS project for fake chats.",
+    image: image6,
+    link: "https://fake-messenger-eight.vercel.app/",
+  },
+  {
+    title: "Amazon Clone",
+    subtitle: "Pure HTML and CSS project.",
+    image: image2,
+    link: "#projects",
   },
 
+  {
+    title: "Facebook Clone",
+    subtitle: "A pure HTML and CSS project.",
+    image: image4,
+    link: "#projects",
+  },
+  {
+    title: "ATO Books",
+    subtitle: "A pure HTML and CSS project.",
+    image: image5,
+    link: "#projects",
+  },
 
+  {
+    title: "Toonworld4all",
+    subtitle: "A HTML and CSSproject.",
+    image: image10,
+    link: "#projects",
+  },
 ];
 
 export const SKILLS = [
   {
-  icon: reactIcon,
+    icon: reactIcon,
     name: "React",
     experience: "2+ years",
   },
   {
-  icon: nextJsIcon,
+    icon: nextJsIcon,
     name: "Next.js",
     experience: "1+ year",
   },
   {
-  icon: mongoDbIcon,
+    icon: mongoDbIcon,
     name: "MongoDB",
     experience: "1.5+ years",
   },
   {
-  icon: reduxJsIcon,
+    icon: reduxJsIcon,
     name: "REDUX",
     experience: "1+ year",
   },
   {
-  icon: nodeJsIcon,
+    icon: nodeJsIcon,
     name: "Node.js",
     experience: "2+ years",
   },
   {
-  icon: expressJsIcon,
+    icon: expressJsIcon,
     name: "Express JS",
     experience: "1+ year",
   },
