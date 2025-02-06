@@ -17,6 +17,7 @@ import image7 from "../assets/project7.png";
 import image8 from "../assets/project8.png";
 import image9 from "../assets/project9.png";
 import image10 from "../assets/project10.png";
+import image11 from "../assets/project11.png";
 
 import reactIcon from "../assets/react-js-icon.svg";
 import nextJsIcon from "../assets/nextjs-icon.svg";
@@ -54,7 +55,7 @@ export const ABOUT = {
 export const PROJECTS = [
   {
     title: "POTTER HEADS",
-    subtitle: "A pure HTML,Tailwind and vanilla JS project.",
+    subtitle: "A pure HTML,Tailwind and vanilla JS project.(Made For Fun)",
     image: image1,
     link: "https://harrypotter-6zbk.vercel.app/",
   },
@@ -63,6 +64,12 @@ export const PROJECTS = [
     subtitle: "A LIVE full MERN stack project.",
     image: image3,
     link: "https://www.mobilemate.io/",
+  },
+  {
+    title: "Doraemon Fan Club",
+    subtitle: "A LIVE full MERN stack project. (Made For Fun)",
+    image: image11,
+    link: " https://doraemon-beta.vercel.app/",
   },
   {
     title: "Admin Pannel For Mobilemate",
@@ -84,7 +91,7 @@ export const PROJECTS = [
   },
   {
     title: "Fake Messenger Chats",
-    subtitle: "A React JS project for fake chats.",
+    subtitle: "A React JS project for fake chats. (Made For Fun)",
     image: image6,
     link: "https://fake-messenger-eight.vercel.app/",
   },
