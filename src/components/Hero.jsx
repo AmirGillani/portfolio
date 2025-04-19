@@ -35,10 +35,9 @@ export default function Hero() {
       >
         <ReactTyped
           strings={[
-            "AMIR SHAH",
+           
             "MERN STACK DEV",
-            "WEB DEVELOPER",
-            "AMIR GILLANI",
+            "WEB DEVELOPER"
           ]}
           typeSpeed={40}
           backSpeed={50}

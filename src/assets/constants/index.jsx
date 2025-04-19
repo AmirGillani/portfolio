@@ -141,55 +141,55 @@ export const TESTIMONIALS = [
     name: "Emily Johnson",
     title: "CEO, Tech Innovators",
     quote:
-      "Working with Robert has been an incredible experience. His design sensibilities and technical expertise are top-notch, making him a valuable asset to any project.",
+      "Working with Amir has been an incredible experience. His design sensibilities and technical expertise are top-notch, making him a valuable asset to any project.",
     image: user1,
   },
   {
     name: "Michael Lee",
     title: "CTO, Creative Minds",
     quote:
-      "Robert consistently delivers high-quality work, combining creativity and technical prowess. His ability to solve complex problems with elegant solutions is truly impressive.",
+      "Amir consistently delivers high-quality work, combining creativity and technical prowess. His ability to solve complex problems with elegant solutions is truly impressive.",
     image: user2,
   },
   {
     name: "Sophia Martinez",
     title: "Lead Developer, Digital Solutions",
     quote:
-      "Robert's dedication to his craft is evident in every project he undertakes. His innovative approach and attention to detail set him apart as a leading designer and developer.",
+      "Amir's dedication to his craft is evident in every project he undertakes. His innovative approach and attention to detail set him apart as a leading designer and developer.",
     image: user3,
   },
   {
     name: "Daniel Thompson",
     title: "Project Manager, InnovateX",
     quote:
-      "Robert's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
+      "Amir's ability to understand client needs and translate them into beautiful, functional designs is remarkable. He is a true professional who always exceeds expectations.",
     image: user4,
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.linkedin.com/in/amir-gillani",
     icon: <FaFacebook size={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.linkedin.com/in/amir-gillani",
     icon: <FaDiscord size={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.linkedin.com/in/amir-gillani",
     icon: <FaInstagram size={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://www.linkedin.com/in/amir-gillani",
     icon: <FaTwitter size={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://github.com/",
+    href: "https://github.com/AmirGillani",
     icon: <FaGithub size={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/amir-gillani",
     icon: <FaLinkedin size={25} className="hover:opacity-80" />,
   },
 ];
