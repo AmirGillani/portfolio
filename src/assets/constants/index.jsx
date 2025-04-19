@@ -140,7 +140,7 @@ export const ACHIEVEMENT = {
   title: "Awards & Achievements",
   award: "Worked On Live Projects",
   description:
-    "Gained hands-on experience building full-stack web apps using MongoDB, Express.js, React, and Node.js.Completed a practical training program focused on real-world projects, version control, and deployment workflows.",
+    "Gained hands-on experience building full-stack web apps using MongoDB, Express.js, React, and Node.js.Completed a practical training programs, internship anf full time job focused on real-world projects, version control, and deployment workflows.",
 };
 
 export const TESTIMONIALS = [

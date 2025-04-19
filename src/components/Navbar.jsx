@@ -109,7 +109,7 @@ export default function Navbar() {
                 <a
                 
                   href={link.href}
-                  className="w-full text-xl block font-semibold"
+                  className="w-full text-xl block font-semibold hover:text-yellow-400"
                   onClick={(e) => {
                     handleClick(e, link.href);
                   }}
