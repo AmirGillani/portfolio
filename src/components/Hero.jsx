@@ -35,7 +35,7 @@ export default function Hero() {
       >
 
         <ReactTyped
-          strings={["MERN STACK DEV", "WEB DEVELOPER"]}
+          strings={["MERN STACK DEV","   ", "WEB DEVELOPER","   "]}
           typeSpeed={40}
           backSpeed={50}
           loop
