@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <div
-      className="md:h-screen h-[50vh] relative flex justify-center items-end"
+      className="md:h-screen  relative flex justify-center items-end aspect-square md:aspect-auto"
       id="hero"
     >
       <motion.img
