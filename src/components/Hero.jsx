@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import hero from "../assets/assets/hero2.jpg";
+import hero from "../assets/assets/hero.jpg";
 import { PROFILE } from "../assets/constants/index";
 import { motion } from "framer-motion";
 

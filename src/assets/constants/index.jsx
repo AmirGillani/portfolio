@@ -7,17 +7,14 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-import image1 from "../assets/project1.png";
-import image2 from "../assets/project2.png";
-import image3 from "../assets/project3.png";
-import image4 from "../assets/project4.png";
-import image5 from "../assets/project5.png";
-import image6 from "../assets/project6.png";
-import image7 from "../assets/project7.png";
-import image8 from "../assets/project8.png";
-import image9 from "../assets/project9.png";
-import image10 from "../assets/project10.png";
-import image11 from "../assets/project11.png";
+import image1 from "../assets/projects/introverts.png";
+import image2 from "../assets/projects/mobilemate.png";
+import image3 from "../assets/projects/ecommerce.png";
+import image4 from "../assets/projects/fakemessenger.png";
+import image5 from "../assets/projects/places.png";
+import image6 from "../assets/projects/doraemon.png";
+import image7 from "../assets/projects/harrypotter.png";
+
 
 import reactIcon from "../assets/react-js-icon.svg";
 import nextJsIcon from "../assets/nextjs-icon.svg";
@@ -54,73 +51,49 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    title: "POTTER HEADS",
-    subtitle: "A pure HTML,Tailwind and vanilla JS project.(Made For Fun)",
+    title: "Introverts",
+    subtitle: "MERN Stack Project",
     image: image1,
-    link: "https://harrypotter-6zbk.vercel.app/",
+    link: "https://introverts.netlify.app/",
   },
   {
     title: "Mobilemate",
-    subtitle: "A LIVE full MERN stack project.",
-    image: image3,
-    link: "https://www.mobilemate.io/",
-  },
-  {
-    title: "Doraemon Fan Club",
-    subtitle: "A LIVE full MERN stack project. (Made For Fun)",
-    image: image11,
-    link: " https://doraemon-beta.vercel.app/",
-  },
-  {
-    title: "Admin Pannel For Mobilemate",
-    subtitle: "A full stack project to manage mobilamate ",
-    image: image7,
+    subtitle: "MERN Stack Project",
+    image: image2,
     link: "https://www.mobilemate.io/",
   },
   {
     title: "Ecommerce App",
-    subtitle: "A MERN stack project",
-    image: image9,
+    subtitle: "MERN Stack Project",
+    image: image3,
     link: "https://ecommerce-frontend-pi-one.vercel.app/",
   },
   {
-    title: "Places App",
-    subtitle: "A MERN stack project",
-    image: image8,
-    link: "https://places-app-orcin.vercel.app/",
-  },
-  {
-    title: "Fake Messenger Chats",
-    subtitle: "A React JS project for fake chats. (Made For Fun)",
-    image: image6,
+    title: "Fake Messenger App",
+    subtitle: "REACT JS Project",
+    image: image4,
     link: "https://fake-messenger-eight.vercel.app/",
   },
   {
-    title: "Amazon Clone",
-    subtitle: "Pure HTML and CSS project.",
-    image: image2,
-    link: "#projects",
-  },
-
-  {
-    title: "Facebook Clone",
-    subtitle: "A pure HTML and CSS project.",
-    image: image4,
-    link: "#projects",
-  },
-  {
-    title: "ATO Books",
-    subtitle: "A pure HTML and CSS project.",
+    title: "PLACES App",
+    subtitle: "MERN Stack Project",
     image: image5,
-    link: "#projects",
+    link: "https://places-app-orcin.vercel.app/",
   },
-
   {
-    title: "Toonworld4all",
-    subtitle: "A HTML and CSSproject.",
-    image: image10,
-    link: "#projects",
+    title: "Doraemon Fan Club",
+    subtitle: "REACT JS Project",
+    image: image6,
+    link: "https://doraemon-beta.vercel.app/",
   },
+ 
+  {
+    title: "Harry Potter Fan Club",
+    subtitle: "Pure JS Project",
+    image: image7,
+    link: "https://harrypotter-6zbk.vercel.app/",
+  }
+ 
 ];
 
 export const SKILLS = [
@@ -157,10 +130,10 @@ export const SKILLS = [
 ];
 
 export const ACHIEVEMENT = {
-  title: "International Hackaton - Tokyo",
-  award: "Gold Medalist - 2024",
+  title: "Awards & Achievements",
+  award: "Worked On Live Projects",
   description:
-    "Winner of the 2024 Algo coding representing the University of Oxford. This achievement showcases exceptional problem-solving skills and dedication. The event provided a platform to innovate and collaborate with the brightest minds, resulting in a prestigious accolade.",
+    "Gained hands-on experience building full-stack web apps using MongoDB, Express.js, React, and Node.js.Completed a practical training program focused on real-world projects, version control, and deployment workflows.",
 };
 
 export const TESTIMONIALS = [
