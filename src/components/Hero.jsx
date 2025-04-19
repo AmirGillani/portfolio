@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import hero from "../assets/assets/hero.jpg";
+import hero from "../assets/assets/hero.png";
 import { PROFILE } from "../assets/constants/index";
 import { motion } from "framer-motion";
 
@@ -33,28 +33,20 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 3, delay: 1 }}
       >
+
         <ReactTyped
-          strings={[
-           
-            "MERN STACK DEV",
-            "WEB DEVELOPER"
-          ]}
+          strings={["MERN STACK DEV", "WEB DEVELOPER"]}
           typeSpeed={40}
           backSpeed={50}
-          attr="placeholder"
           loop
-          style={{
-            textShadow:
-              "0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff, 0 0 90px #ff00ff, 0 0 100px #ff00ff",
-          }}
+          showCursor={true}
+          cursorChar="|"
         >
-          <input
-            type="text"
-            readOnly
-            className="bg-transparent text-4xl text-center text-white tracking-wider uppercase font-semibold md:text-7xl placeholder:text-white"
+          <span
+            className="text-4xl md:text-7xl font-semibold uppercase tracking-wider text-white text-center inline"
             style={{
               textShadow:
-                "0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff, 0 0 90px #ff00ff, 0 0 100px #ff00ff",
+                "0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff",
             }}
           />
         </ReactTyped>

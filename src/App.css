@@ -253,3 +253,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+
+.typed-cursor {
+  font-size: 3rem; /* Match your text size */
+  line-height: 1;
+  vertical-align: bottom; /* Adjust if it looks off */
+  color: #fff;
+  text-shadow:
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff;
+}
