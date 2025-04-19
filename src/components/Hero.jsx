@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <div
-      className="md:h-screen h-[60vh] relative flex justify-center items-end"
+      className="md:h-screen h-[50vh] relative flex justify-center items-end"
       id="hero"
     >
       <motion.img
@@ -43,7 +43,7 @@ export default function Hero() {
           cursorChar="|"
         >
           <span
-            className="text-4xl md:text-7xl font-semibold uppercase tracking-wider text-white text-center inline"
+            className="text-3xl md:text-7xl font-semibold uppercase tracking-wider text-white text-center inline"
             style={{
               textShadow:
                 "0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff",
