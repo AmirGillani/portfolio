@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ReactTyped } from "react-typed";
 import hero from "../assets/assets/hero.png";
 import { PROFILE } from "../assets/constants/index";
@@ -35,7 +35,7 @@ export default function Hero() {
       >
 
         <ReactTyped
-          strings={["MERN STACK DEV","   ", "WEB DEVELOPER","   "]}
+          strings={["MERN STACK DEV","   ", "WEB DEVELOPER","   ","AMIR HUSSAIN SHAH"," "]}
           typeSpeed={40}
           backSpeed={50}
           loop
@@ -43,7 +43,7 @@ export default function Hero() {
           cursorChar="|"
         >
           <span
-            className="text-3xl md:text-7xl font-semibold uppercase tracking-wider text-white text-center inline"
+            className="text-3xl md:text-5xl font-semibold uppercase tracking-wider text-white text-center inline"
             style={{
               textShadow:
                 "0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 40px #ff00ff",

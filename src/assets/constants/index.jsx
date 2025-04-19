@@ -117,12 +117,12 @@ export const SKILLS = [
   {
     icon: mongoDbIcon,
     name: "MongoDB",
-    experience: "1.5+ years",
+    experience: "2+ years",
   },
   {
     icon: reduxJsIcon,
     name: "REDUX",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: nodeJsIcon,
@@ -132,7 +132,7 @@ export const SKILLS = [
   {
     icon: expressJsIcon,
     name: "Express JS",
-    experience: "1+ year",
+    experience: "2+ year",
   },
 ];
 
