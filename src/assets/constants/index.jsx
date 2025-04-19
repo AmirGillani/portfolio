@@ -14,6 +14,7 @@ import image4 from "../assets/projects/fakemessenger.png";
 import image5 from "../assets/projects/places.png";
 import image6 from "../assets/projects/doraemon.png";
 import image7 from "../assets/projects/harrypotter.png";
+import image8 from "../assets/projects/teddybear.png";
 
 
 import reactIcon from "../assets/react-js-icon.svg";
@@ -92,6 +93,12 @@ export const PROJECTS = [
     subtitle: "Pure JS Project",
     image: image7,
     link: "https://harrypotter-6zbk.vercel.app/",
+  },
+  {
+    title: "Fluff N Stuff",
+    subtitle: "React JS Project",
+    image: image8,
+    link: "https://teddybearsforsale.netlify.app/",
   }
  
 ];
